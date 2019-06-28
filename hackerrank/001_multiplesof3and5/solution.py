@@ -1,7 +1,6 @@
 #!/bin/python3
 
 import sys
-import math
 
 def multiplesOf3And5(number):
     # sum of multiples of 3
