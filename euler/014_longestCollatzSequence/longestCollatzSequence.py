@@ -1,3 +1,5 @@
+sequences = {}
+
 def longestCollatzSequence():
 	longest = 1 #1
 	number = 1
@@ -7,17 +9,22 @@ def longestCollatzSequence():
 		n = x
 		sequence = 1
 		while n > 1:
+			if n in sequences:
+				sequence += sequences[n]
+				break
+
 			if n % 2 == 0:
 				n = n / 2
 			else:
 				n = 3*n + 1
 			sequence += 1
 
+		sequences[tmpN] = sequence
+
 		if sequence > longest:
 			longest = sequence
 			number = tmpN
 
 	return number
-
 
 print(longestCollatzSequence())
