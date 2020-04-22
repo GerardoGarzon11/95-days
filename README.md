@@ -1,30 +1,8 @@
-# ghost-code-challenge
+# programming-problems
 
 Coding challenge between friends
 
 @GerardoGarzon11
 @khair41
 
-HackerRankSolutions
-
-| Problem # | Gerardo | Khair |
-| --- | --- | --- |
-| 001 | OK | OK |
-| 002 | OK | OK |
-| 003 | - | OK |
-| 004 | OK | - |
-| 005 | OK | - |
-| 006 | OK | - |
-| 007 | OK | - |
-| 008 | - | - |
-| 009 | - | - |
-| 010 | - | - |
-| 011 | OK | - |
-| 012 | - | - |
-| 013 | - | - |
-| 014 | - | - |
-| 015 | - | - |
-| 016 | - | - |
-| 017 | - | - |
-
-(Updated July 14th, 2019)
+Solving problems in HackerRank, Project Euler and CodeForces
