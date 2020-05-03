@@ -1,14 +1,22 @@
 """
-rectagle = w * h
-rings = k
-(w-4(i-1)) * (h-4(i-1))
+	https://codeforces.com/problemset/problem/1031/A
+	Input:
+		w	width
+		h 	height
+		k	number of gilded rings
+
+	Output
+		res number of cells to be gilded
 """
+
+def calcGildedCells(width, height, k):
+	result = 0
+
+	for i in range(0, k):
+		result += 2 * ((width - (i * 4)) + (height - (i * 4))) - 4
+
+	return result
 
 w, h, k = map(int, input().split())
 
-res = 0
-
-for i in range(0, k):
-	res += 2 * ((w - (i * 4)) + (h - (i * 4))) - 4
-
-print(res)
+print(calcGildedCells(w, h, k))
